@@ -1,0 +1,26 @@
+name: dev_test
+job_type: test2
+random_state: 42
+num_workers_train: 8
+num_workers_val: 8
+num_workers_test: 8
+
+output_folder: ./test2_output/
+data_path: "./DATA"
+checkpoint_path: "./CHECKPOINTS"
+atomization_energy: ./GENERAL_DATA/atomization_energies.npy
+
+data_key: "test2kConformersFull"
+checkpoint_key: "eqvBigT2kUnique"
+is_supress_cores: True
+
+defaults:
+  - nn: big_DeepDFTeqv.yaml
+  - _self_
+
+test:
+  test_name: "devTest"
+  description: "Demo package for reviewer. cut of v0.0.20 version"
+  device:  "cuda"
+  accelerator: "gpu"
+  dataset_subset_size: 10000000000 # This is full data

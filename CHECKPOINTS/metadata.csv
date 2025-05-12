@@ -1,0 +1,7 @@
+key,depth,features,dataset,is_good,comment,file
+invBigT2kFull,6,128,train_2k_full,TRUE,,DeepDFTinv_big-train_2k_full-21-unhappy-reindeer-epoch=629-val_MSE=0.000000651538-val_NMAE_avg=0.014217682183.ckpt
+eqvBigT2kFull,6,128,train_2k_full,TRUE,,DeepDFTeqv_big-train_2k_full-10-environmental-iguanas-epoch=1049-val_MSE=0.000000253047-val_NMAE_avg=0.011559220031.ckpt
+LAGNetBigT2kFull,4,128,train_2k_full,TRUE,,DeepDFText0_big-train_2k_full-6-helpful-wombat-epoch=459-val_MSE=0.000000064990-val_NMAE_avg=0.005216198973.ckpt
+invBigT2kUnique,6,128,train_2k_unique,TRUE,,DeepDFTinv_big-train_2k_unique-8-strict-rooster-epoch=2519-val_MSE=0.000000771112-val_NMAE_avg=0.015125760809.ckpt
+eqvBigT2kUnique,6,128,train_2k_unique,TRUE,,DeepDFTeqv_big-train_2k_unique-11-ugly-chickens-epoch=2149-val_MSE=0.000000480293-val_NMAE_avg=0.016559137031.ckpt
+LAGNetBigT2kUnique,4,128,train_2k_unique,TRUE,,DeepDFText0_big-train_2k_unique-10-emotional-dogs-epoch=1229-val_MSE=0.000000126154-val_NMAE_avg=0.008089225739.ckpt
