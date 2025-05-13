@@ -1,0 +1,7 @@
+_target_: Dense4Dense.network.DeepDFT.DeepDFTeqv_Wrapper
+name: 'DeepDFTeqv_small'
+depth: 2
+size_of_expansion: 20
+num_features: 32
+cutoff: 20
+atom_embedding_size: 36
