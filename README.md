@@ -12,6 +12,8 @@ If you have any questions, please feel free to open an issue. We are happy to he
 
 # Cite LAGNet
 
+https://doi.org/10.1186/s13321-025-01010-7
+
 ```plaintext
 @article{ushenin2025lagnet,
   title={LAGNet: better electron density prediction for LCAO-based data and drug-like substances},
